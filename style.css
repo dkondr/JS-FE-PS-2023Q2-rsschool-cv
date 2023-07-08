@@ -29,6 +29,7 @@ body{
 /* HEADER */
 .header {
     border: 1px solid red;
+    background-color: rgb(130, 153, 133);
 }
 
 .nav__list {
@@ -42,7 +43,14 @@ body{
     padding: 0 20px;
     line-height: 50px;
     text-decoration-line: none;
-    color: black;
+    color: #fff;
+    font-size: 20px;
+    transition:  0.5s; /*smoth change of properties*/
+}
+
+.nav__link:hover {
+    color: rgb(215, 209, 201);
+    text-decoration-line: underline;
 }
 /* MAIN */
 .main {
