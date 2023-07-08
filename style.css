@@ -7,6 +7,10 @@
     box-sizing: border-box; /* borders and padding sizes will be taken into account in values that reveal restrictions in the width and height of the element. This transforms the work with dimensions, which allows them to be more logical*/
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Poppins';
     min-height: 100vh; /*min height of the body can't be less than the height page*/
@@ -25,6 +29,20 @@ body{
 /* HEADER */
 .header {
     border: 1px solid red;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav__link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration-line: none;
+    color: black;
 }
 /* MAIN */
 .main {
