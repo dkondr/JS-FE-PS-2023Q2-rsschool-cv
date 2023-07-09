@@ -49,14 +49,53 @@ body{
 }
 
 .nav__link:hover {
-    color: rgb(215, 209, 201);
+    color: rgb(255, 219, 31);/*rgb(215, 209, 201);*/
     text-decoration-line: underline;
 }
 /* MAIN */
 .main {
     border: 1px solid red;
 }
+
+.profile {
+    border-bottom: 10px solid rgb(130, 153, 133);
+}
+.profile__line {
+    border-bottom: 3px solid rgb(255, 219, 31);
+    width: 100px;
+}
+
+.contacts {
+    border-bottom: 3px solid rgb(130, 153, 133);
+}
+
+.summary {
+    border-bottom: 3px solid rgb(130, 153, 133);
+}
+
+.skills{
+    border-bottom: 3px solid rgb(130, 153, 133);
+}
+
+.code{
+    border-bottom: 3px solid rgb(130, 153, 133);
+}
+
+.courses{
+    border-bottom: 3px solid rgb(130, 153, 133);
+}
+
+.projects{
+    border-bottom: 3px solid rgb(130, 153, 133);
+}
+
 /* FOOTER */
 .footer {
     border: 1px solid red;
+    background-color: rgb(130, 153, 133);
+}
+
+.rss__logo {
+    width: 120px;
+    height: 40px;
 }
