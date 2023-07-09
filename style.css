@@ -19,7 +19,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: 'Poppins';
     font-size: 18px;
     min-height: 100vh; /*min height of the body can't be less than the height page*/
@@ -65,10 +65,8 @@ body{
     color: rgb(255, 219, 31);/*rgb(215, 209, 201);*/
     text-decoration-line: underline;
 }
-/* MAIN */
-.main {
 
-}
+/* MAIN */
 
 .main__container {
     display: flex;
@@ -87,7 +85,6 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-around;
-
 }
 
 .profile__img {
@@ -107,11 +104,10 @@ body{
 
 .h1 {
     border-bottom: 3px solid rgb(255, 219, 31);
-    font-size: 32px;
+    font-size: 36px;
     letter-spacing: 11px;
     padding-bottom: 20px;
     transition: transform 0.3s ease-in;
-
 }
 
 .h1:hover {
@@ -119,11 +115,68 @@ body{
 }
 
 .profile__description {
+    font-size: 22px;
     letter-spacing: 5px;
+    transition: transform 0.3s ease-in;
+}
+
+.profile__description:hover {
+    transform: scale(0.95);
 }
 
 .contacts {
     border-bottom: 3px solid rgb(255, 219, 31);
+}
+
+.contacts__list {
+    padding: 0;
+}
+
+.contacts__item {
+    margin: 5px;
+    padding-left: 40px;
+    list-style: none;
+}
+
+.contacts__item:nth-child(1) {
+    background-image: url('assets/icon/location.svg');
+    background-repeat: no-repeat;
+    height: 30px;
+}
+
+.contacts__item:nth-child(2) {
+    background-image: url('assets/icon/mail.svg');
+    background-repeat: no-repeat;
+    height: 30px;
+}
+
+.contacts__item:nth-child(3) {
+    background-image: url('assets/icon/github.svg');
+    background-repeat: no-repeat;
+    height: 30px;
+}
+
+.contacts__item:nth-child(4) {
+    background-image: url('assets/icon/telegram.svg');
+    background-repeat: no-repeat;
+    height: 30px;
+}
+
+.contacts__item:nth-child(5) {
+    background-image: url('assets/icon/discord.svg');
+    background-repeat: no-repeat;
+    height: 30px;
+}
+.contacts__link {
+    color: #000;
+    font-size: 20px;
+    text-decoration-line: none;
+    transition:  0.5s; /*smoth change of properties*/
+}
+
+.contacts__link:hover {
+    color: rgb(130, 153, 133);
+    text-decoration-line: underline;
 }
 
 .summary {
@@ -134,32 +187,125 @@ body{
     text-align: justify;
 }
 
-.skills{
+.skills {
     border-bottom: 3px solid rgb(255, 219, 31);
 }
 
-.code{
-    border-bottom: 3px solid rgb(255, 219, 31);
-
+.skills__item {
+    margin: 5px;
+    list-style: none;
 }
 
-.code__pre{
+.skills__link {
+    color: #000;
+    font-size: 20px;
+    text-decoration-line: none;
+}
+
+.skills__item {
+    list-style-type: '👉';
+}
+
+.code {
+    border-bottom: 3px solid rgb(255, 219, 31);
+}
+
+.code__pre {
     margin: 0;
     padding: 0;
 }
 
-.courses{
+.courses {
     border-bottom: 3px solid rgb(255, 219, 31);
 }
 
-.projects{
+.courses__item {
+    margin: 5px;
+    list-style: none;
+}
+
+.courses__link {
+    color: #000;
+    font-size: 20px;
+    text-decoration-line: none;
+}
+
+.courses__item {
+    list-style-type: '🎓';
+}
+
+.projects {
     border-bottom: 3px solid rgb(255, 219, 31);
+}
+
+.projects__item {
+    margin: 5px;
+    list-style: none;
+}
+
+.projects__link {
+    color: #000;
+    font-size: 20px;
+    text-decoration-line: none;
+    transition:  0.5s; /*smoth change of properties*/
+}
+
+.projects__item {
+    list-style-type: '😍';
+}
+
+.projects__link:hover {
+    color: rgb(130, 153, 133);
+    text-decoration-line: underline;
+}
+
+.education__university {
+    color: #000;
+    font-size: 20px;
+}
+
+.languages__item {
+    margin: 5px;
+    list-style: none;
+}
+
+.languages__link {
+    color: #000;
+    font-size: 20px;
+    text-decoration-line: none;
+}
+
+.languages__item {
+    list-style-type: '👅';
 }
 
 /* FOOTER */
 .footer {
-
     background-color: rgb(130, 153, 133);
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer__div {
+    color: #fff;
+    font-size: 22px;
+}
+
+.footer__github {
+    color: #fff;
+    font-size: 22px;
+    text-decoration-line: none;
+    transition:  0.5s; /*smoth change of properties*/
+}
+
+.footer__github:hover {
+    color: rgb(255, 219, 31);
+    text-decoration-line: underline;
 }
 
 .rss__logo {
